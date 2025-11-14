@@ -4,14 +4,14 @@ import Link from "next/link";
 const page = () => {
   return (
     <NetBandLayout>
-      <Breadcrumb pageTitle={"Shop Page"} />
+      <Breadcrumb pageTitle={"Shop"} />
       <section className="product-section fix section-padding">
         <div className="container">
           <div className="row g-4">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/01.jpg" alt="img" />
+                  <img src="assets/img/shop/product1.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -36,7 +36,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Archer Router <br /> for Home
+                    Fiber Optic Cable <br/> Single Mode
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -55,7 +55,7 @@ const page = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/02.jpg" alt="img" />
+                  <img src="assets/img/shop/product2.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -80,7 +80,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Smart TV Box <br /> for Home
+                    Industrial Network <br/> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -99,7 +99,7 @@ const page = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/03.jpg" alt="img" />
+                  <img src="assets/img/shop/product3.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -124,7 +124,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Virtual Reality <br /> Helmet
+                    Fiber Optic Cable <br/> Single Mode
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -143,7 +143,7 @@ const page = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/04.jpg" alt="img" />
+                  <img src="assets/img/shop/product4.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -168,7 +168,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Camera Gear 360 <br /> for Home
+                    Industrial Network <br/> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -187,7 +187,7 @@ const page = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/04.jpg" alt="img" />
+                  <img src="assets/img/shop/product1.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -212,7 +212,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Camera Gear 360 <br /> for Home
+                    Fiber Optic Cable <br/> Single Mode
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -231,7 +231,7 @@ const page = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/03.jpg" alt="img" />
+                  <img src="assets/img/shop/product2.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -256,7 +256,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Virtual Reality <br /> Helmet
+                    Industrial Network <br/> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -275,7 +275,7 @@ const page = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/02.jpg" alt="img" />
+                  <img src="assets/img/shop/product3.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -300,7 +300,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Smart TV Box <br /> for Home
+                    Fiber Optic Cable <br/> Single Mode
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -319,7 +319,7 @@ const page = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="product-card-items mt-0">
                 <div className="product-image">
-                  <img src="assets/img/product/03.jpg" alt="img" />
+                  <img src="assets/img/shop/product4.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -344,7 +344,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Virtual Reality <br /> Helmet
+                    Industrial Network <br/> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
