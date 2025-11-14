@@ -137,12 +137,7 @@ const Header1 = ({ openSidebar, single, menus }) => {
                       </h6>
                     </div>
                   </div>
-                  <div className="header-button">
-                    <Link href="contact" className="link-btn">
-                      <span>Contact us</span>
-                      <i className="fas fa-chevron-right" />
-                    </Link>
-                  </div>
+                 
                   <SearchBtn />
                   <div className="header__hamburger d-xl-none my-auto">
                     <div

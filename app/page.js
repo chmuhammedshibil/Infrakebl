@@ -10,7 +10,9 @@ import Link from "next/link";
 import { FaShieldAlt } from "react-icons/fa";
 import { IoIosFlash } from "react-icons/io";
 import { GiFlexibleStar } from "react-icons/gi";
-
+import { FaTools } from "react-icons/fa";
+import { GiWindSlap } from "react-icons/gi";
+import { GiWireCoil } from "react-icons/gi";
 
 const page = () => {
   return (
@@ -167,17 +169,6 @@ const page = () => {
                   </ul>
                   <div className="about-author">
                     <div
-                      className="about-button wow fadeInUp"
-                      data-wow-delay=".8s"
-                    >
-                      <Link href="about" className="theme-btn">
-                        <span>
-                          Explore more about
-                          <i className="fas fa-chevron-right" />
-                        </span>
-                      </Link>
-                    </div>
-                    <div
                       className="author-image wow fadeInUp"
                       data-wow-delay=".9s"
                     >
@@ -198,8 +189,8 @@ const page = () => {
             <div className="section-title text-center">
               <span className="wow fadeInUp">Best Network</span>
               <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                Find Perfect Network <br />
-                Solutions
+                Find Perfect fiber  <br />
+                optic networks
               </h2>
             </div>
             <div className="row">
@@ -209,19 +200,17 @@ const page = () => {
               >
                 <div className="network-solution-items">
                   <div className="icon">
-                    <i className="flaticon-connection" />
+                  <FaTools />
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="about">Corporate Internet</Link>
+                      <Link href="about">Splicing work</Link>
                     </h4>
                     <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
+                    Professional fiber splicing services for repairing, extending, and joining optical fibers with zero signal loss.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
-                      <i className="fas fa-chevron-right" />
                     </Link>
                   </div>
                 </div>
@@ -232,19 +221,19 @@ const page = () => {
               >
                 <div className="network-solution-items">
                   <div className="icon">
-                    <i className="flaticon-signal" />
+                  <GiWindSlap />
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="about">Home Internet</Link>
+                      <Link href="about">Blow in cables
+                      </Link>
                     </h4>
                     <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
+                    Efficient cable blowing services to install fiber cables through ducts over long distances with high accuracy.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
-                      <i className="fas fa-chevron-right" />
+                      
                     </Link>
                   </div>
                 </div>
@@ -255,19 +244,18 @@ const page = () => {
               >
                 <div className="network-solution-items">
                   <div className="icon">
-                    <i className="flaticon-server" />
+                  <GiWireCoil />
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="about">Hosting &amp; Development</Link>
+                      <Link href="about">Cable laying work</Link>
                     </h4>
                     <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
+                    End-to-end cable laying solutions, including underground, overhead, and duct-based fiber installations.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
-                      <i className="fas fa-chevron-right" />
+                    
                     </Link>
                   </div>
                 </div>
@@ -282,15 +270,14 @@ const page = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="about">Satelite Chanel</Link>
+                      <Link href="about">Measurement &amp; testing</Link>
                     </h4>
                     <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
+                    Advanced fiber testing using OTDR &amp; power meters to ensure signal strength, network stability, &amp; optimal performance.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
-                      <i className="fas fa-chevron-right" />
+                      
                     </Link>
                   </div>
                 </div>
