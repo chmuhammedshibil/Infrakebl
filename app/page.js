@@ -7,6 +7,11 @@ import MovieSlider from "@/components/slider/MovieSlider";
 import TestimonialSlider from "@/components/slider/TestimonialSlider";
 import NetBandLayout from "@/layouts/NetBandLayout";
 import Link from "next/link";
+import { FaShieldAlt } from "react-icons/fa";
+import { IoIosFlash } from "react-icons/io";
+import { GiFlexibleStar } from "react-icons/gi";
+
+
 const page = () => {
   return (
     <NetBandLayout header={1}>
@@ -26,10 +31,10 @@ const page = () => {
               <div className="single-feature-items">
                 <div className="content">
                   <span>Features</span>
-                  <h3>TV &amp; Streaming</h3>
+                  <h3>reliability</h3>
                 </div>
                 <div className="icon">
-                  <i className="flaticon-smart-tv-1" />
+                  <FaShieldAlt />
                 </div>
               </div>
             </div>
@@ -40,11 +45,10 @@ const page = () => {
               <div className="single-feature-items active">
                 <div className="content">
                   <span>Features</span>
-                  <h3>Fast Internet</h3>
+                  <h3>speed                  </h3>
                 </div>
                 <div className="icon">
-                  <i className="flaticon-connection" />
-                </div>
+                  <IoIosFlash />                </div>
               </div>
             </div>
             <div
@@ -54,16 +58,17 @@ const page = () => {
               <div className="single-feature-items">
                 <div className="content">
                   <span>Features</span>
-                  <h3>All for Mobile</h3>
+                  <h3>flexibility                  </h3>
                 </div>
                 <div className="icon">
-                  <i className="flaticon-smart-tv-3" />
+                  <GiFlexibleStar />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       {/*<< About Section Start >>*/}
       <section className="about-section fix section-padding pt-0">
         <div className="container">
@@ -91,14 +96,15 @@ const page = () => {
                     className="about-image bg-cover wow fadeInLeft"
                     data-wow-delay=".3s"
                     style={{
-                      backgroundImage: 'url("assets/img/about/about.jpg")',
+                      backgroundImage: 'url("assets/img/hero/blue-optic.jpg")',
                     }}
                   >
                     <div
                       className="about-image-2 wow fadeInUp"
                       data-wow-delay=".5s"
                     >
-                      <img src="assets/img/about/about-2.jpg" alt="about-img" />
+                      <img src="https://glasfasertechnik.nrw/wp-content/uploads/2019/05/glasxx.jpg" width={350} height={350}  alt="about-img" />
+                    
                     </div>
                   </div>
                 </div>
@@ -106,29 +112,26 @@ const page = () => {
               <div className="col-lg-6 mt-5 mt-lg-0">
                 <div className="about-content">
                   <div className="section-title">
-                    <span className="wow fadeInUp">About Netband</span>
+                    <span className="wow fadeInUp">About InfraKabel</span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Get TV streaming with your internet service
+                    G&K Glasfasertechnik introduces itself
                     </h2>
                   </div>
                   <p
                     className=" mt-4 mt-md-0 wow fadeInUp"
                     data-wow-delay=".5s"
                   >
-                    Transmds is the world’s driving worldwide coordinations
-                    supplier — we uphold industry and exchange the worldwide
-                    trade of merchandi
+                    We develop, build, and operate future-proof FTTX fiber optic networks and prepare for the dynamic broadband development of the coming decades. Our goal is to provide pure fiber optic connections to private households, schools, and businesses throughout Germany.
                   </p>
                   <div className="circle-progress-bar-wrapper">
                     <div
                       className="single-circle-bar wow fadeInUp"
                       data-wow-delay=".3s"
                     >
-                      <ProgressBar value={88} />
+                      <ProgressBar value={100} />
                       <div className="content">
                         <h6>
-                          Free Installation <br />
-                          Ultrafast Connect
+                        All-round service
                         </h6>
                       </div>
                     </div>
@@ -136,11 +139,10 @@ const page = () => {
                       className="single-circle-bar wow fadeInUp"
                       data-wow-delay=".5s"
                     >
-                      <ProgressBar value={93} />
+                      <ProgressBar value={100} />
                       <div className="content">
                         <h6>
-                          Real Technology <br />
-                          Solutions
+                        thoroughness
                         </h6>
                       </div>
                     </div>
@@ -148,15 +150,19 @@ const page = () => {
                   <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
                     <li>
                       <i className="far fa-check me-2" />
-                      Professional Team Member
+                      Splicing work
                     </li>
                     <li>
                       <i className="far fa-check me-2" />
-                      Awards Winning Internet Solutions Company
+                      Troubleshooting and fault rectification
                     </li>
                     <li>
                       <i className="far fa-check me-2" />
-                      Dedicated Tech Services
+                      Blow in cables
+                    </li>
+                    <li>
+                      <i className="far fa-check me-2" />
+                      Installation of couplings of all types
                     </li>
                   </ul>
                   <div className="about-author">
@@ -176,10 +182,7 @@ const page = () => {
                       data-wow-delay=".9s"
                     >
                       <img src="assets/img/about/author.png" alt="author-img" />
-                      <div className="content">
-                        <h5 className="mb-2">Modina Theme</h5>
-                        <p>Ceo &amp; Founder</p>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>

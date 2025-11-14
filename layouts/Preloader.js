@@ -12,26 +12,35 @@ const Preloader = () => {
       <div className="animation-preloader">
         <div className="spinner"></div>
         <div className="txt-loading">
+          <span data-text-preloader="I" className="letters-loading">
+            I
+          </span>
           <span data-text-preloader="N" className="letters-loading">
             N
           </span>
-          <span data-text-preloader="E" className="letters-loading">
-            E
+          <span data-text-preloader="F" className="letters-loading">
+            F
           </span>
-          <span data-text-preloader="T" className="letters-loading">
-            T
-          </span>
-          <span data-text-preloader="B" className="letters-loading">
-            B
+          <span data-text-preloader="R" className="letters-loading">
+            R
           </span>
           <span data-text-preloader="A" className="letters-loading">
             A
           </span>
-          <span data-text-preloader="N" className="letters-loading">
-            N
+          <span data-text-preloader="K" className="letters-loading">
+            K
           </span>
-          <span data-text-preloader="D" className="letters-loading">
-            D
+          <span data-text-preloader="A" className="letters-loading">
+            A
+          </span>
+          <span data-text-preloader="B" className="letters-loading">
+            B
+          </span>
+          <span data-text-preloader="E" className="letters-loading">
+            E
+          </span>
+          <span data-text-preloader="L" className="letters-loading">
+            L
           </span>
         </div>
         <p className="text-center">Loading</p>

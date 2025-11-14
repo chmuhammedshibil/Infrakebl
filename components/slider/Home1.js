@@ -46,42 +46,44 @@ const Home1 = () => {
         <SwiperSlide className="swiper-slide">
           <div
             className="hero-image bg-cover"
-            style={{ backgroundImage: 'url("assets/img/hero/hero-1.jpg")' }}
+            style={{ backgroundImage: 'url("https://glasfasertechnik.nrw/wp-content/uploads/2019/05/gg.jpg")' }}
           />
           <div className="container">
             <div className="row justify-content-between align-items-center">
               <div className="col-xl-8">
                 <div className="hero-content">
-                  <h6
+                  {/* <h6
                     data-animation="fadeInUp"
                     data-delay="1.3s"
                     data-duration=".3s"
                   >
                     Best Solution
-                  </h6>
+                  </h6> */}
                   <h1
                     className="text-white"
                     data-animation="fadeInUp"
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Get Fast <br /> Internet Solution
+                    G&K Fiber <br /> Optic Technology
                   </h1>
                   <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    <sub>$</sub>99 <span>/ Month</span>
+                    <span className="p-4">Fast. Precise. Tailored to your needs.
+
+                    </span>
                   </h2>
-                  <p
+                  {/* <p
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
                     Ultra Fast internet
-                  </p>
-                  <div className="hero-button">
+                  </p> */}
+                  {/* <div className="hero-button">
                     <Link
                       href="/"
                       className="theme-btn"
@@ -95,21 +97,8 @@ const Home1 = () => {
                         <i className="fas fa-chevron-right" />
                       </span>
                     </Link>
-                    <span
-                      className="button-text"
-                      data-animation="fadeInUp"
-                      data-delay="1.9s"
-                      data-duration=".3s"
-                    >
-                      <a
-                        href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                        className="video-btn ripple video-popup"
-                      >
-                        <i className="fas fa-play" />
-                      </a>
-                      <span className="ms-4 d-line">Watch Video</span>
-                    </span>
-                  </div>
+
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-3">
@@ -123,42 +112,43 @@ const Home1 = () => {
         <SwiperSlide className="swiper-slide">
           <div
             className="hero-image bg-cover"
-            style={{ backgroundImage: 'url("assets/img/hero/hero-2.jpg")' }}
+            style={{ backgroundImage: 'url("https://glasfasertechnik.nrw/wp-content/uploads/2019/05/Glasfaser.jpg")' }}
           />
           <div className="container">
             <div className="row justify-content-between align-items-center">
               <div className="col-xl-8">
                 <div className="hero-content">
-                  <h6
+                  {/* <h6
                     data-animation="fadeInUp"
                     data-delay="1.3s"
                     data-duration=".3s"
                   >
                     Best Solution
-                  </h6>
+                  </h6> */}
                   <h1
                     className="text-white"
                     data-animation="fadeInUp"
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Get Fast <br /> Internet Solution
-                  </h1>
+                    G&K Fiber <br /> Optic Technology                  </h1>
                   <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    <sub>$</sub>99 <span>/ Month</span>
+                    <span className="p-4">Fast. Precise. Tailored to your needs.
+
+                    </span>
                   </h2>
-                  <p
+                  {/* <p
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
                     Ultra Fast internet
-                  </p>
-                  <div className="hero-button">
+                  </p> */}
+                  {/* <div className="hero-button">
                     <Link
                       href="/"
                       className="theme-btn"
@@ -172,21 +162,8 @@ const Home1 = () => {
                         <i className="fas fa-chevron-right" />
                       </span>
                     </Link>
-                    <span
-                      className="button-text"
-                      data-animation="fadeInUp"
-                      data-delay="1.9s"
-                      data-duration=".3s"
-                    >
-                      <a
-                        href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                        className="video-btn ripple video-popup"
-                      >
-                        <i className="fas fa-play" />
-                      </a>
-                      <span className="ms-4 d-line">Watch Video</span>
-                    </span>
-                  </div>
+
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-3">
@@ -197,7 +174,7 @@ const Home1 = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
+        {/* <SwiperSlide className="swiper-slide">
           <div
             className="hero-image bg-cover"
             style={{ backgroundImage: 'url("assets/img/hero/hero-3.jpg")' }}
@@ -273,7 +250,7 @@ const Home1 = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </section>
   );
