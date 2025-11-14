@@ -12680,3 +12680,16 @@ p.sticky-label {
 .footer-bottom-4 p a {
   color: var(--theme);
 }/*# sourceMappingURL=main.css.map */
+
+.movie-image {
+  width: 350px;  /* set your desired width */
+  height: 350px; /* set your desired height */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.movie-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* keeps same shape, crops if necessary */
+}

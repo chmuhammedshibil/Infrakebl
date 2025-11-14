@@ -11,22 +11,16 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/01.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product1.jpeg" alt="img" />
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Jombie Season</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />
@@ -44,22 +38,17 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/02.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product2.jpeg" alt="img" />
+            
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Halloween</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />
@@ -77,22 +66,17 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/03.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product3.jpeg" alt="img" />
+             
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Bambi</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />
@@ -110,22 +94,17 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/04.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product4.jpeg" alt="img" />
+              
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Scream</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />
@@ -143,22 +122,17 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/01.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product1.jpeg" alt="img" />
+             
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Jombie Season</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />
@@ -176,22 +150,17 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/02.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product2.jpeg" alt="img" />
+
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Halloween</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />
@@ -209,22 +178,17 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/03.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product3.jpeg" alt="img" />
+
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Bambi</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />
@@ -242,22 +206,17 @@ const MovieSlider = () => {
         <SwiperSlide className="swiper-slide">
           <div className="movie-card-items">
             <div className="movie-image">
-              <img src="assets/img/shows/04.jpg" alt="img" />
-              <div className="movie-play">
-                <a
-                  href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
-                  className="video-btn ripple video-popup"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
+              <img src="assets/img/shop/product4.jpeg" alt="img" />
+             
             </div>
             <div className="movie-content">
               <h3>
-                <Link href="shows-details">Scream</Link>
+                <Link href="shows-details">Fiber Optic Cable - Single Mode
+                </Link>
               </h3>
               <div className="movie-review">
-                <span>(2024)</span>
+                <span>$120.00
+                </span>
                 <ul>
                   <li>
                     <i className="fas fa-star" />

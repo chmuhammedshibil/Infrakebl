@@ -105,8 +105,8 @@ const page = () => {
                       className="about-image-2 wow fadeInUp"
                       data-wow-delay=".5s"
                     >
-                      <img src="https://glasfasertechnik.nrw/wp-content/uploads/2019/05/glasxx.jpg" width={350} height={350}  alt="about-img" />
-                    
+                      <img src="https://glasfasertechnik.nrw/wp-content/uploads/2019/05/glasxx.jpg" width={350} height={350} alt="about-img" />
+
                     </div>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ const page = () => {
                   <div className="section-title">
                     <span className="wow fadeInUp">About InfraKabel</span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    G&K Glasfasertechnik introduces itself
+                      G&K Glasfasertechnik introduces itself
                     </h2>
                   </div>
                   <p
@@ -133,7 +133,7 @@ const page = () => {
                       <ProgressBar value={100} />
                       <div className="content">
                         <h6>
-                        All-round service
+                          All-round service
                         </h6>
                       </div>
                     </div>
@@ -144,7 +144,7 @@ const page = () => {
                       <ProgressBar value={100} />
                       <div className="content">
                         <h6>
-                        thoroughness
+                          thoroughness
                         </h6>
                       </div>
                     </div>
@@ -173,7 +173,7 @@ const page = () => {
                       data-wow-delay=".9s"
                     >
                       <img src="assets/img/about/author.png" alt="author-img" />
-                     
+
                     </div>
                   </div>
                 </div>
@@ -200,14 +200,14 @@ const page = () => {
               >
                 <div className="network-solution-items">
                   <div className="icon">
-                  <FaTools />
+                    <FaTools />
                   </div>
                   <div className="content">
                     <h4>
                       <Link href="about">Splicing work</Link>
                     </h4>
                     <p>
-                    Professional fiber splicing services for repairing, extending, and joining optical fibers with zero signal loss.
+                      Professional fiber splicing services for repairing, extending, and joining optical fibers with zero signal loss.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
@@ -221,7 +221,7 @@ const page = () => {
               >
                 <div className="network-solution-items">
                   <div className="icon">
-                  <GiWindSlap />
+                    <GiWindSlap />
                   </div>
                   <div className="content">
                     <h4>
@@ -229,11 +229,11 @@ const page = () => {
                       </Link>
                     </h4>
                     <p>
-                    Efficient cable blowing services to install fiber cables through ducts over long distances with high accuracy.
+                      Efficient cable blowing services to install fiber cables through ducts over long distances with high accuracy.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
-                      
+
                     </Link>
                   </div>
                 </div>
@@ -244,18 +244,18 @@ const page = () => {
               >
                 <div className="network-solution-items">
                   <div className="icon">
-                  <GiWireCoil />
+                    <GiWireCoil />
                   </div>
                   <div className="content">
                     <h4>
                       <Link href="about">Cable laying work</Link>
                     </h4>
                     <p>
-                    End-to-end cable laying solutions, including underground, overhead, and duct-based fiber installations.
+                      End-to-end cable laying solutions, including underground, overhead, and duct-based fiber installations.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
-                    
+
                     </Link>
                   </div>
                 </div>
@@ -273,11 +273,11 @@ const page = () => {
                       <Link href="about">Measurement &amp; testing</Link>
                     </h4>
                     <p>
-                    Advanced fiber testing using OTDR &amp; power meters to ensure signal strength, network stability, &amp; optimal performance.
+                      Advanced fiber testing using OTDR &amp; power meters to ensure signal strength, network stability, &amp; optimal performance.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
-                      
+
                     </Link>
                   </div>
                 </div>
@@ -292,8 +292,9 @@ const page = () => {
           <div className="section-title text-center">
             <span className="text-white wow fadeInUp">What’s new</span>
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Popular Tv show Sports <br />
-              &amp; Live Streaming
+              Fiber Expansion ,
+              Community <br /> Connections &amp;
+              Broadband Innovation
             </h2>
           </div>
           <MovieSlider />
@@ -305,38 +306,28 @@ const page = () => {
           <div className="marquee-inner to-left">
             <ul className="marqee-list d-flex">
               <li className="marquee-item">
-                <span className="text-slider">Internet</span>
-                <span className="text-slider">Wifi</span>
+                <span className="text-slider">Fiber Optic</span>
+                <span className="text-slider">FTTX</span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">broadband</span>
-                <span className="text-slider">Tv</span>
+
+                <span className="text-slider">High-Speed Internet</span>
+                <span className="text-slider">Pure Fiber</span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Internet</span>
-                <span className="text-slider">Wifi</span>
+
+                <span className="text-slider">Gigabit Network</span>
+                <span className="text-slider">FTTH</span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">broadband</span>
-                <span className="text-slider">Tv</span>
+
+                <span className="text-slider">Fiber Splicing</span>
+                <span className="text-slider">Cable Laying</span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Internet</span>
-                <span className="text-slider">Wifi</span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">broadband</span>
-                <span className="text-slider">Tv</span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Internet</span>
-                <span className="text-slider">Wifi</span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">broadband</span>
-                <span className="text-slider">Tv</span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">Internet</span>
-                <span className="text-slider">Wifi</span>
-                <span className="text-slider style-border" />
-                <span className="text-slider">broadband</span>
-                <span className="text-slider">Tv</span>
+
+                <span className="text-slider">Network Expansion</span>
+                <span className="text-slider">Broadband Solutions</span>
                 <span className="text-slider style-border" />
               </li>
             </ul>
+
           </div>
         </div>
       </div>
