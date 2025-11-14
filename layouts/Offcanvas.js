@@ -11,7 +11,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img"   style={{ width: "150px", height: "150px", objectFit: "contain" }} />
                   </Link>
                 </div>
                 <div className="offcanvas__close">

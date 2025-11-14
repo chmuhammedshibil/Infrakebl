@@ -242,7 +242,7 @@ const Footer2 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/footer-logo.svg" alt="logo-img" />
+                      <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img"   style={{ width: "100px", height: "100px", objectFit: "contain" }} />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -411,7 +411,7 @@ const Footer3 = () => {
         <div className="footer-top">
           <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
             <Link href="/">
-              <img src="assets/img/logo/footer-logo-2.svg" alt="img" />
+            <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img"   style={{ width: "100px", height: "100px", objectFit: "contain" }} />
             </Link>
           </div>
           <ul className="wow fadeInUp" data-wow-delay=".5s">
