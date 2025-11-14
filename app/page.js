@@ -332,7 +332,10 @@ const page = () => {
         </div>
       </div>
       {/*<< Service Section Start >>*/}
+
       <Service1 />
+
+
       {/*<< Brand Section Start >>*/}
       <section className="brand-section fix section-padding pt-0">
         <div className="container">
@@ -353,10 +356,10 @@ const page = () => {
           <div className="cta-banner-wrapper section-padding pt-0">
             <div className="section-title mb-0">
               <span className="text-white wow fadeInUp">
-                Subscribe Nextflix Tv
+              Upgrade to Pure Fiber
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                Enjoy Sports Movies, TV Shows &amp; More.
+              Experience seamless browsing, <br/> streaming & network stability.
                 <br />
                 Please Call :{" "}
                 <a href="tel:123884400" className="text-white">
@@ -379,57 +382,60 @@ const page = () => {
       </section>
       {/*<< Feature Icon Box Section Start >>*/}
       <section className="feature-icon-box-area">
-        <div className="container">
-          <div className="feature-icon-box-wrapper">
-            <div className="row g-4">
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".3s"
-              >
-                <div className="icon-box-items">
-                  <div className="icon">
-                    <i className="flaticon-tv-box-1" />
-                  </div>
-                  <div className="content">
-                    <h3>Smart TV Box</h3>
-                    <p>200+ entertainment channels for different age groups</p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".5s"
-              >
-                <div className="icon-box-items active">
-                  <div className="icon">
-                    <i className="flaticon-smartphone" />
-                  </div>
-                  <div className="content">
-                    <h3>Mobile connection</h3>
-                    <p>Use our router to stay online on all your devices.</p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".7s"
-              >
-                <div className="icon-box-items">
-                  <div className="icon">
-                    <i className="flaticon-wifi-router-2" />
-                  </div>
-                  <div className="content">
-                    <h3>Wifi internet</h3>
-                    <p>
-                      High-speed Internet access that is always on &amp; fast.
-                    </p>
-                  </div>
-                </div>
-              </div>
+  <div className="container">
+    <div className="feature-icon-box-wrapper">
+      <div className="row g-4">
+
+        <div
+          className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+          data-wow-delay=".3s"
+        >
+          <div className="icon-box-items">
+            <div className="icon">
+              <i className="flaticon-tv-box-1" />
+            </div>
+            <div className="content">
+              <h3>Fiber Network Installation</h3>
+              <p>Professional FTTX & FTTH setup with reliable, future-proof fiber connectivity.</p>
             </div>
           </div>
         </div>
-      </section>
+
+        <div
+          className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+          data-wow-delay=".5s"
+        >
+          <div className="icon-box-items active">
+            <div className="icon">
+              <i className="flaticon-smartphone" />
+            </div>
+            <div className="content">
+              <h3>Fiber Splicing Services</h3>
+              <p>Precision splicing to ensure seamless fiber connections with minimal signal loss.</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+          data-wow-delay=".7s"
+        >
+          <div className="icon-box-items">
+            <div className="icon">
+              <i className="flaticon-wifi-router-2" />
+            </div>
+            <div className="content">
+              <h3>High-Speed Broadband</h3>
+              <p>Ultra-fast, stable fiber internet for homes, schools, and businesses.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
       {/*<< Team Section Start >>*/}
       <section className="team-section section-padding">
         <div className="container">
@@ -986,7 +992,7 @@ const page = () => {
             >
               <div className="product-card-items">
                 <div className="product-image">
-                  <img src="assets/img/product/01.jpg" alt="img" />
+                  <img src="assets/img/shop/product1.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -1011,7 +1017,8 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Archer Router <br /> for Home
+                    Fiber Optic Cable <br/> Single Mode
+
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -1033,7 +1040,7 @@ const page = () => {
             >
               <div className="product-card-items">
                 <div className="product-image">
-                  <img src="assets/img/product/02.jpg" alt="img" />
+                  <img src="assets/img/shop/product2.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -1058,7 +1065,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Smart TV Box <br /> for Home
+                    Industrial Network <br/> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -1080,7 +1087,7 @@ const page = () => {
             >
               <div className="product-card-items">
                 <div className="product-image">
-                  <img src="assets/img/product/03.jpg" alt="img" />
+                  <img src="assets/img/shop/product3.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -1105,7 +1112,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Virtual Reality <br /> Helmet
+                    Industrial Network <br/> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -1127,7 +1134,7 @@ const page = () => {
             >
               <div className="product-card-items">
                 <div className="product-image">
-                  <img src="assets/img/product/04.jpg" alt="img" />
+                  <img src="assets/img/shop/product4.jpeg" alt="img" />
                   <div className="product-badge">
                     <span className="product-badge-item">sale</span>
                   </div>
@@ -1152,7 +1159,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                      Camera Gear 360 <br /> for Home
+                    Fiber Optic Cable <br/> Single Mode
                     </Link>
                   </h6>
                   <div className="ratting">

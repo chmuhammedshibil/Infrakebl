@@ -12693,3 +12693,16 @@ p.sticky-label {
   height: 100%;
   object-fit: cover;   /* keeps same shape, crops if necessary */
 }
+
+.product-card-items .product-image {
+  width: 100%;
+  height: 250px;       /* choose the height you want */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.product-card-items .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* keeps shape clean */
+}
