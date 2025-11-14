@@ -356,10 +356,10 @@ const page = () => {
           <div className="cta-banner-wrapper section-padding pt-0">
             <div className="section-title mb-0">
               <span className="text-white wow fadeInUp">
-              Upgrade to Pure Fiber
+                Upgrade to Pure Fiber
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Experience seamless browsing, <br/> streaming & network stability.
+                Experience seamless browsing, <br /> streaming & network stability.
                 <br />
                 Please Call :{" "}
                 <a href="tel:123884400" className="text-white">
@@ -382,59 +382,59 @@ const page = () => {
       </section>
       {/*<< Feature Icon Box Section Start >>*/}
       <section className="feature-icon-box-area">
-  <div className="container">
-    <div className="feature-icon-box-wrapper">
-      <div className="row g-4">
+        <div className="container">
+          <div className="feature-icon-box-wrapper">
+            <div className="row g-4">
 
-        <div
-          className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-          data-wow-delay=".3s"
-        >
-          <div className="icon-box-items">
-            <div className="icon">
-              <i className="flaticon-tv-box-1" />
-            </div>
-            <div className="content">
-              <h3>Fiber Network Installation</h3>
-              <p>Professional FTTX & FTTH setup with reliable, future-proof fiber connectivity.</p>
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div className="icon-box-items">
+                  <div className="icon">
+                    <i className="flaticon-tv-box-1" />
+                  </div>
+                  <div className="content">
+                    <h3>Fiber Network Installation</h3>
+                    <p>Professional FTTX & FTTH setup with reliable, future-proof fiber connectivity.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+                data-wow-delay=".5s"
+              >
+                <div className="icon-box-items active">
+                  <div className="icon">
+                    <i className="flaticon-smartphone" />
+                  </div>
+                  <div className="content">
+                    <h3>Fiber Splicing Services</h3>
+                    <p>Precision splicing to ensure seamless fiber connections with minimal signal loss.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+                data-wow-delay=".7s"
+              >
+                <div className="icon-box-items">
+                  <div className="icon">
+                    <i className="flaticon-wifi-router-2" />
+                  </div>
+                  <div className="content">
+                    <h3>High-Speed Broadband</h3>
+                    <p>Ultra-fast, stable fiber internet for homes, schools, and businesses.</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
-
-        <div
-          className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-          data-wow-delay=".5s"
-        >
-          <div className="icon-box-items active">
-            <div className="icon">
-              <i className="flaticon-smartphone" />
-            </div>
-            <div className="content">
-              <h3>Fiber Splicing Services</h3>
-              <p>Precision splicing to ensure seamless fiber connections with minimal signal loss.</p>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-          data-wow-delay=".7s"
-        >
-          <div className="icon-box-items">
-            <div className="icon">
-              <i className="flaticon-wifi-router-2" />
-            </div>
-            <div className="content">
-              <h3>High-Speed Broadband</h3>
-              <p>Ultra-fast, stable fiber internet for homes, schools, and businesses.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       {/*<< Team Section Start >>*/}
       <section className="team-section section-padding">
@@ -454,7 +454,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/01.jpg" alt="team-img" />
+                    <img src="assets/img/team/people1.jpg" alt="team-img" />
                     <div className="social-profile">
                       <span className="plus-btn">
                         <i className="fas fa-share-alt" />
@@ -497,7 +497,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/02.jpg" alt="team-img" />
+                    <img src="assets/img/team/people2.jpg" alt="team-img" />
                     <div className="social-profile">
                       <span className="plus-btn">
                         <i className="fas fa-share-alt" />
@@ -540,7 +540,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/03.jpg" alt="team-img" />
+                    <img src="assets/img/team/people3.jpg" alt="team-img" />
                     <div className="social-profile">
                       <span className="plus-btn">
                         <i className="fas fa-share-alt" />
@@ -583,7 +583,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/04.jpg" alt="team-img" />
+                    <img src="assets/img/team/people4.jpg" alt="team-img" />
                     <div className="social-profile">
                       <span className="plus-btn">
                         <i className="fas fa-share-alt" />
@@ -652,7 +652,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/04.jpg" alt="team-img" />
+                    <img src="assets/img/team/people5.jpg" alt="team-img" />
                     <div className="social-profile">
                       <span className="plus-btn">
                         <i className="fas fa-share-alt" />
@@ -695,7 +695,7 @@ const page = () => {
               >
                 <div className="single-team-items">
                   <div className="team-image">
-                    <img src="assets/img/team/05.jpg" alt="team-img" />
+                    <img src="assets/img/team/people5.jpg" alt="team-img" />
                     <div className="social-profile">
                       <span className="plus-btn">
                         <i className="fas fa-share-alt" />
@@ -927,32 +927,33 @@ const page = () => {
             <div className="row justify-content-between">
               <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cta-subscribe-image">
-                  <img src="assets/img/banner/cta-tv.png" alt="img" />
+                  <img src="assets/img/banner/operation-computer.jpg" style={{ width: '100%', height: '100%' }} alt="img" />
                 </div>
               </div>
               <div className="col-lg-5 mt-5 mt-md-0">
                 <div className="cta-subscribe-content">
                   <div className="section-title">
-                    <span className="wow fadeInUp">TV Shows</span>
+                    <span className="wow fadeInUp">Fiber Connection</span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Enjoy Sports Movies <br /> TV Shows &amp; More
+                      Experience Ultra-Fast Internet <br />
+                      With Pure Fiber Technology
                     </h2>
                   </div>
+
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Transmds is the world’s driving worldwide coordinations
-                    supplier — we uphold industry and exchange the worldwide
-                    trade of merchandi
+                    InfraKabel provides reliable, future-proof FTTX fiber networks for
+                    households, schools, and businesses. Enjoy stable connectivity,
+                    low latency, and high-speed internet for streaming, work, and more.
                   </p>
-                  <h4
-                    className="cta-sub-title wow fadeInUp"
-                    data-wow-delay=".3s"
-                  >
-                    <span>Subscribe Netfix TV Box &amp; Get</span> <br />
-                    FREE Wi-Fi For 1 Month
+
+                  <h4 className="cta-sub-title wow fadeInUp" data-wow-delay=".3s">
+                    <span>Get Your Fiber Connection Today &amp; Receive</span> <br />
+                    FREE Installation Support
                   </h4>
+
                   <div className="subscribe-plan">
                     <h3 className="price wow fadeInUp" data-wow-delay=".5s">
-                      <span>Only</span> $89<sub>/Mon</sub>
+                      <span>Only</span> €29<sub>/Mon</sub>
                     </h3>
                     <Link
                       href="pricing"
@@ -965,6 +966,7 @@ const page = () => {
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -1017,7 +1019,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                    Fiber Optic Cable <br/> Single Mode
+                      Fiber Optic Cable <br /> Single Mode
 
                     </Link>
                   </h6>
@@ -1065,7 +1067,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                    Industrial Network <br/> Switch
+                      Industrial Network <br /> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -1112,7 +1114,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                    Industrial Network <br/> Switch
+                      Industrial Network <br /> Switch
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -1159,7 +1161,7 @@ const page = () => {
                 <div className="product-content">
                   <h6>
                     <Link href="shop-details">
-                    Fiber Optic Cable <br/> Single Mode
+                      Fiber Optic Cable <br /> Single Mode
                     </Link>
                   </h6>
                   <div className="ratting">
@@ -1186,8 +1188,8 @@ const page = () => {
         <div className="container">
           <div className="cta-parallax-wrapper text-center">
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Need Fast &amp; Secure Broadband! Use <br /> Netband &amp; The
-              Real Network
+              Need Fast & Secure Broadband?
+              Choose InfraKabel for a Truly Reliable Fiber Network.
             </h2>
             <div className="button-items">
               <Link
@@ -1272,7 +1274,7 @@ const page = () => {
       {/*<< Faq Section Start >>*/}
       <section className="faq-section fix section-padding">
         <div className="faq-image">
-          <img src="assets/img/faq.png" alt="img" />
+          <img src="assets/img/banner/heart-im.jpg" width={800} height={700} alt="img" />
         </div>
         <div className="faq-shape">
           <img src="assets/img/faq-shape-1.png" alt="shape-img" />

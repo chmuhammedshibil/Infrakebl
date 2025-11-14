@@ -12706,3 +12706,85 @@ p.sticky-label {
   height: 100%;
   object-fit: cover;   /* keeps shape clean */
 }
+
+.brand-carousel-active .brand-image,
+.brand-slider-2 .brand-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;                  /* spacing around logo */
+}
+
+.brand-carousel-active .brand-image img,
+.brand-slider-2 .brand-img img {
+  width: 160px;                   /* fixed size for all logos */
+  height: 60px;                   /* adjust as you prefer */
+  object-fit: contain;            /* keeps the logo clean */
+  filter: grayscale(100%);        /* optional: makes logos look professional */
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+.brand-carousel-active .brand-image img:hover,
+.brand-slider-2 .brand-img img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Force all team images to be the same size */
+.team-image {
+  width: 100%;
+  height: 280px;            /* ← set the height you want */
+  overflow: hidden;
+  border-radius: 10px;      /* optional, keeps the style nice */
+  position: relative;
+}
+
+.team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* ← makes images uniform */
+  object-position: center;  /* keeps faces centered */
+}
+
+/* ---------------------------- */
+/* FIX TESTIMONIAL CARD SIZES   */
+/* ---------------------------- */
+
+.testimonial-card-items,
+.testimonial-card-items-2,
+.testimonial-items,
+.testimonial-wrapper-4 .testimonial-items {
+  width: 100%;
+  min-height: 350px;          /* set your card height */
+  max-height: 350px;          /* prevents oversized cards */
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;           /* hides overflow text */
+  background: #fff;           /* keep your theme background */
+  border-radius: 12px;        /* optional, for smooth corners */
+}
+
+/* Fix image size inside cards */
+.author-image,
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Optional: make long text scroll or ellipsis */
+.testimonial-card-items p,
+.testimonial-card-items-2 p,
+.testimonial-content h3 {
+  max-height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

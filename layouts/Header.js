@@ -69,13 +69,13 @@ const Header1 = ({ openSidebar, single, menus }) => {
             <ul className="contact-list">
               <li>
                 <i className="far fa-envelope" />
-                <a href="mailto:info@example.com" className="link">
-                  info@example.com
+                <a href="mailto:info@infrakabel.de" className="link">
+                info@infrakabel.de
                 </a>
               </li>
               <li>
                 <i className="fas fa-map-marker-alt" />
-                55 Main Street, 2nd block, Malborne ,Australia
+                Musterstraße 123, 12345 Musterstadt, Germany
               </li>
             </ul>
             <div className="top-right">
