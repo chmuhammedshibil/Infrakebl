@@ -120,7 +120,7 @@ const Header1 = ({ openSidebar, single, menus }) => {
                     </Link>
                   </div>
                   <div className="mean__menu-wrapper">
-                    <div className="main-menu">
+                    <div className="main-menu " >
                       <Menus single={single} menus={menus} />
                     </div>
                   </div>
@@ -399,7 +399,7 @@ const Header4 = ({ openSidebar, single, menus }) => {
               </div>
             </div>
             <div className="mean__menu-wrapper">
-              <div className="main-menu">
+              <div className="main-menu" style={{display: "flex" , justifyContent:"center", alignItems:"center"}}>
                 <Menus single={single} menus={menus} />
               </div>
             </div>

@@ -15,7 +15,7 @@ const Menus = ({ single, menus }) => {
   return (
     <nav id="mobile-menu" className="d-none d-xl-block">
       {single ? (
-        <ul>
+        <ul >
           <li>
             <Link href="/">
               Home
@@ -28,7 +28,7 @@ const Menus = ({ single, menus }) => {
           </li>
         </ul>
       ) : (
-        <ul>
+        <ul  >
           <li className="active menu-thumb">
             <Link href="/">
               Home
@@ -151,7 +151,7 @@ export const MobileMenu = ({ menus, single }) => {
       ];
   return (
     <nav className="mean-nav d-block d-xl-none">
-      <ul>
+      <ul  >
         <li className="has-dropdown active d-lg-none">
           <a
             href="/"

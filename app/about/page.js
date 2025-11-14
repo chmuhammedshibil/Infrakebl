@@ -7,6 +7,14 @@ import NewsSlider from "@/components/slider/NewsSlider";
 import { TestimonialSlider4 } from "@/components/slider/TestimonialSlider";
 import NetBandLayout from "@/layouts/NetBandLayout";
 import Link from "next/link";
+import { AiOutlineCloudServer } from "react-icons/ai";
+import { MdLan } from "react-icons/md";
+import { TbScissors } from "react-icons/tb";
+import { MdSupportAgent } from "react-icons/md";
+
+
+
+
 const page = () => {
   return (
     <NetBandLayout>
@@ -38,14 +46,18 @@ const page = () => {
                     className="about-image bg-cover wow fadeInLeft"
                     data-wow-delay=".3s"
                     style={{
-                      backgroundImage: 'url("assets/img/about/about.jpg")',
+                      backgroundImage: 'url("assets/img/about/about1.jpg")',
                     }}
                   >
                     <div
                       className="about-image-2 wow fadeInUp"
                       data-wow-delay=".5s"
                     >
-                      <img src="assets/img/about/about-2.jpg" alt="about-img" />
+                      <img
+                        src="assets/img/about/about2.jpg"
+                        alt="about-img"
+                        width={400}
+                      />
                     </div>
                   </div>
                 </div>
@@ -54,30 +66,30 @@ const page = () => {
                 <div className="about-content">
                   <div className="section-title">
                     <span className="wow fadeInUp">
-                      5m+ Trusted Our Clients
+                      10,000km+ Network Coverage
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      We Prominent Truly trusted IT business solutions
+                      Reliable, High-Speed Fiber Optic Solutions for Germany
                     </h2>
                   </div>
                   <p
                     className=" mt-4 mt-md-0 wow fadeInUp"
                     data-wow-delay=".5s"
                   >
-                    Transmds is the world’s driving worldwide coordinations
-                    supplier — we uphold industry and exchange the worldwide
-                    trade of merchandi
+                    Infrakabel GmbH is a leading German provider of digital
+                    infrastructure — we support industry and trade in the
+                    nationwide expansion of high-speed connectivity.
                   </p>
                   <div className="circle-progress-bar-wrapper">
                     <div
                       className="single-circle-bar wow fadeInUp"
                       data-wow-delay=".3s"
                     >
-                      <ProgressBar value={68} />
+                      <ProgressBar value={99} />
                       <div className="content">
                         <h6>
-                          Business <br />
-                          Strategy
+                          Network <br />
+                          Uptime
                         </h6>
                       </div>
                     </div>
@@ -85,11 +97,11 @@ const page = () => {
                       className="single-circle-bar wow fadeInUp"
                       data-wow-delay=".5s"
                     >
-                      <ProgressBar value={93} />
+                      <ProgressBar value={95} />
                       <div className="content">
                         <h6>
-                          Real Technology <br />
-                          Solutions
+                          Client <br />
+                          Satisfaction
                         </h6>
                       </div>
                     </div>
@@ -97,15 +109,15 @@ const page = () => {
                   <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
                     <li>
                       <i className="far fa-check me-2" />
-                      Professional Team Member
+                      Certified Professional Technicians
                     </li>
                     <li>
                       <i className="far fa-check me-2" />
-                      Awards Winning IT Solutions Company
+                      Award-Winning Network Infrastructure
                     </li>
                     <li>
                       <i className="far fa-check me-2" />
-                      Dedicated Tech Services
+                      Dedicated 24/7 Technical Support
                     </li>
                   </ul>
                   <div className="about-author">
@@ -115,7 +127,7 @@ const page = () => {
                     >
                       <Link href="about" className="theme-btn">
                         <span>
-                          Explore more about
+                          Explore Our Services
                           <i className="fas fa-chevron-right" />
                         </span>
                       </Link>
@@ -130,7 +142,7 @@ const page = () => {
                           src="assets/img/about/signature.png"
                           alt="signature"
                         />
-                        <p>Ceo &amp; Founder</p>
+                        <p>CEO & Founder</p>
                       </div>
                     </div>
                   </div>
@@ -144,10 +156,10 @@ const page = () => {
       <section className="service-section-3 fix section-padding pt-0">
         <div className="container">
           <div className="section-title text-center">
-            <span className="wow fadeInUp">our fucusable services</span>
+            <span className="wow fadeInUp">Our Core Services</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              How do we work to help you <br />
-              in Startup Business
+              Enabling High-Speed Connectivity <br />
+            for Your Business
             </h2>
           </div>
           <div className="row">
@@ -157,16 +169,14 @@ const page = () => {
             >
               <div className="service-box-items">
                 <div className="icon">
-                  <i className="flaticon-wifi-router-5" />
+                  <MdLan />
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Broadband</Link>
+                    <Link href="service-details">Fiber Installation</Link>
                   </h3>
-                  <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
-                    <i className="fas fa-chevron-right" />
-                  </Link>
+                  <p>Full-service FTTX/FTTH network installation.</p>
+                  
                 </div>
               </div>
             </div>
@@ -176,16 +186,14 @@ const page = () => {
             >
               <div className="service-box-items active">
                 <div className="icon">
-                  <i className="flaticon-wi-fi" />
+                  <AiOutlineCloudServer   />
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">WIFI Internet</Link>
+                    <Link href="service-details">Network Management</Link>
                   </h3>
-                  <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
-                    <i className="fas fa-chevron-right" />
-                  </Link>
+                  <p>Managed services for optimal network performance.</p>
+                 
                 </div>
               </div>
             </div>
@@ -195,16 +203,14 @@ const page = () => {
             >
               <div className="service-box-items">
                 <div className="icon">
-                  <i className="flaticon-satellite-tv" />
+                  <TbScissors />
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Satellite TV</Link>
+                    <Link href="service-details">Splicing & Repair</Link>
                   </h3>
-                  <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
-                    <i className="fas fa-chevron-right" />
-                  </Link>
+                  <p>Precise fiber splicing and emergency repair services</p>
+                  
                 </div>
               </div>
             </div>
@@ -214,16 +220,14 @@ const page = () => {
             >
               <div className="service-box-items">
                 <div className="icon">
-                  <i className="flaticon-tv-box" />
+                  <  MdSupportAgent  />
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">TV box</Link>
+                    <Link href="service-details">IT Consulting</Link>
                   </h3>
-                  <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
-                    <i className="fas fa-chevron-right" />
-                  </Link>
+                  <p>Expert planning for scalable digital infrastructure.</p>
+                  
                 </div>
               </div>
             </div>
@@ -235,13 +239,13 @@ const page = () => {
       {/*<< Cta Parallax Section Start >>*/}
       <div
         className="cta-parallax-section bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/02.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/banner/banner.jpg")' }}
       >
         <div className="container">
           <div className="cta-parallax-wrapper text-center">
             <h2 className="text-white">
-              Need Fast &amp; Secure Broadband? Use <br /> Netfix &amp; The Real
-              Network
+             Need Fast &amp; Secure Fiber? Choose <br /> Infrakabel GmbH for True
+  Connectivity
             </h2>
             <div className="button-items">
               <Link href="pricing" className="theme-btn">
@@ -260,7 +264,7 @@ const page = () => {
         </div>
       </div>
       {/*<< Counter Section Start >>*/}
-      <section className="counter-section">
+      <section className="counter-section mb-5">
         <div className="container">
           <div className="counter-wrapper">
             <div className="counter-items">
@@ -302,40 +306,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/*<< Testimonial Section Start >>*/}
-      <TestimonialSlider4 />
-      {/*<< Brand Section Start >>*/}
-      <div className="brand-section-3 fix section-padding pt-0">
-        <div className="container">
-          <div className="brand-wrapper">
-            <BrandSlider />
-          </div>
-        </div>
-      </div>
-      {/*<< News Section Start >>*/}
-      <section className="news-section-2 section-padding fix">
-        <div className="container">
-          <div className="title-section-area">
-            <div className="section-title">
-              <span className="wow fadeInUp">5m+ Trusted Our Clients</span>
-              <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                Read Our News &amp; Blogs
-              </h2>
-            </div>
-            <Link
-              href="news-details"
-              className="theme-btn wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <span>
-                Explore Our news
-                <i className="fas fa-chevron-right" />
-              </span>
-            </Link>
-          </div>
-          <NewsSlider />
-        </div>
-      </section>
+     
     </NetBandLayout>
   );
 };

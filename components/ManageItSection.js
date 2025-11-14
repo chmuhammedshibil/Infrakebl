@@ -11,9 +11,9 @@ const ManageItSection = () => {
             <div className="col-lg-6">
               <div className="manage-it-content">
                 <div className="section-title">
-                  <span className="wow fadeInUp">How to Manage</span>
+                  <span className="wow fadeInUp">Our Process</span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Our Managed IT Services let you Concentrate on What Matters
+                    Our Managed Fiber Services Let You Concentrate on What Matters
                   </h2>
                 </div>
                 <div className="single-tab-items mt-4 mt-md-0">
@@ -59,119 +59,100 @@ const ManageItSection = () => {
                       <Tab.Pane eventKey="approach" className="tab-pane fade">
                         <div className="tab-content-items">
                           <p className="wow fadeInUp" data-wow-delay=".3s">
-                            At veroeos accusamus dignissimos ducimus blanditiis
-                            volupta delenite atque <br />
-                            corrupti quos dolores et quas molestias excepturi
-                            sint occaecatie
+                           Our approach is built on precision and reliability. We analyze
+                           your needs to design, build, and maintain robust fiber optic
+                           networks that deliver unparalleled speed and uptime, ensuring
+                           your business is future-proof.
                           </p>
                           <div className="list-area">
                             <ul className="wow fadeInUp" data-wow-delay=".5s">
                               <li>
                                 <i className="fas fa-check" />
-                                Efficient Sprint Planning
+                                Detailed Network Planning
                               </li>
                               <li>
                                 <i className="fas fa-check" />
-                                Standups and Demos
+                                Use of High-Quality
                               </li>
                             </ul>
                             <ul className="wow fadeInUp" data-wow-delay=".7s">
                               <li>
                                 <i className="fas fa-check" />
-                                Iterative Delivery Approach
+                                Certified Professional Installation
                               </li>
                               <li>
                                 <i className="fas fa-check" />
-                                Problem-solving
+                                 Testing & 24/7 Support
                               </li>
                             </ul>
                           </div>
-                          <Link
-                            href="about"
-                            className="theme-btn wow fadeInUp"
-                            data-wow-delay=".9s"
-                          >
-                            <span>
-                              Learn More
-                              <i className="fas fa-chevron-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="project" className="tab-pane fade">
                         <div className="tab-content-items">
                           <p>
-                            At veroeos accusamus dignissimos ducimus blanditiis
-                            volupta delenite atque <br />
-                            corrupti quos dolores et quas molestias excepturi
-                            sint occaecatie
+                            Our primary goal for every project is to deliver scalable,
+                            high-performance fiber optic infrastructure that meets and
+                            exceeds client expectations. We focus on creating networks that
+                            are not only fast but also exceptionally reliable and secure.
                           </p>
                           <div className="list-area">
                             <ul>
                               <li>
                                 <i className="fas fa-check" />
-                                Efficient Sprint Planning
+                                 Symmetrical Gigabit Speeds
                               </li>
                               <li>
                                 <i className="fas fa-check" />
-                                Standups and Demos
+                                Ensure 99.99% Network Uptime
                               </li>
                             </ul>
                             <ul>
                               <li>
                                 <i className="fas fa-check" />
-                                Iterative Delivery Approach
+                                 On-Time Project Completion
                               </li>
                               <li>
                                 <i className="fas fa-check" />
-                                Problem-solving
+                                Build Future-Proof
                               </li>
                             </ul>
                           </div>
-                          <Link href="about" className="theme-btn">
-                            <span>
-                              Learn More
-                              <i className="fas fa-chevron-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="advisory" className="tab-pane fade">
                         <div className="tab-content-items">
                           <p>
-                            At veroeos accusamus dignissimos ducimus blanditiis
-                            volupta delenite atque <br />
-                            corrupti quos dolores et quas molestias excepturi
-                            sint occaecatie
+                            Our expert advisory services guide you through complex network
+                            decisions. We analyze your specific requirements to provide
+                            strategic advice on infrastructure planning, technology adoption,
+                            and scalability to ensure long-term value.
                           </p>
                           <div className="list-area">
                             <ul>
                               <li>
                                 <i className="fas fa-check" />
-                                Efficient Sprint Planning
+                                Infrastructure Audits 
                               </li>
                               <li>
                                 <i className="fas fa-check" />
-                                Standups and Demos
+                                Technology Roadmap Planning
                               </li>
                             </ul>
                             <ul>
                               <li>
                                 <i className="fas fa-check" />
-                                Iterative Delivery Approach
+                                Cost-Benefit & ROI Analysis
                               </li>
                               <li>
                                 <i className="fas fa-check" />
-                                Problem-solving
+                                Regulatory Compliance Consulting
                               </li>
                             </ul>
                           </div>
-                          <Link href="about" className="theme-btn">
-                            <span>
-                              Learn More
-                              <i className="fas fa-chevron-right" />
-                            </span>
-                          </Link>
+                          
                         </div>
                       </Tab.Pane>
                     </Tab.Content>
@@ -186,11 +167,11 @@ const ManageItSection = () => {
               <div
                 className="manage-image bg-cover"
                 style={{
-                  backgroundImage: 'url("assets/img/about/about-7.jpg")',
+                  backgroundImage: 'url("assets/img/about/about7.jpg")',
                 }}
               >
                 <div className="counting-shape">
-                  <img src="assets/img/counting.png" alt="shape-img" />
+                  <img src="assets/img/about/counting1.jpg" alt="shape-img" width={300} height={300} />
                 </div>
               </div>
             </div>
