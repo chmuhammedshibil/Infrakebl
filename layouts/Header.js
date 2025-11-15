@@ -167,7 +167,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
               <li>
                 <i className="far fa-envelope" />
                 <a href="mailto:info@example.com" className="link">
-                  info@example.com
+                info@infrakabel.de
                 </a>
               </li>
               <li>
@@ -212,6 +212,8 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <Menus single={single} menus={menus} />
                   </div>
                 </div>
+                
+
                 <div className="menu-cart">
                   <div className="cart-box">
                     <ul>
@@ -249,6 +251,8 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <i className="far fa-shopping-cart" />
                   </Link>
                 </div>
+
+                
                 <SearchBtn />
                 <div className="header-button">
                   <Link href="contact" className="theme-btn">

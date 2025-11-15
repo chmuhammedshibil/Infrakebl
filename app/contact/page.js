@@ -31,9 +31,12 @@ const page = () => {
                         <div className="content">
                           <h5>Location</h5>
                           <p>
-                            55 Main street, 2nd block, <br />
-                            Melbourne, Australia
+                          Musterstraße 123, <br />
+                          12345 Musterstadt,  Germany
+
                           </p>
+                        
+
                         </div>
                       </div>
                     </div>
@@ -57,11 +60,11 @@ const page = () => {
                         <div className="content">
                           <h5>Email</h5>
                           <a href="mailto:info@example.com" className="link">
-                            info@example.com
+                          info@infrakabel.de
                           </a>{" "}
                           <br />
                           <a href="mailto:info@example.com" className="link">
-                            info@example.com
+                          info@infrakabel.de
                           </a>
                         </div>
                       </div>
@@ -95,7 +98,7 @@ const page = () => {
                     className="contact-image wow fadeInUp"
                     data-wow-delay=".4s"
                   >
-                    <img src="assets/img/contact.jpg" alt="img" />
+                    <img src="https://images.adsttc.com/media/images/674c/70e2/2986/4b01/7f32/dc8f/medium_jpg/estos-son-los-25-edificios-mas-altos-del-mundo-ahora_26.jpg?1733062904" alt="img" />
                   </div>
                 </div>
               </div>

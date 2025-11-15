@@ -38,7 +38,8 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                      Musterstraße 123,
+                      12345 Musterstadt, Germany
                       </a>
                     </div>
                   </li>
@@ -49,7 +50,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                     <div className="offcanvas__contact-text">
                       <a href="mailto:info@netband.com">
                         <span className="mailto:info@netband.com">
-                          info@netband.com
+                          info@infrakabel.com
                         </span>
                       </a>
                     </div>

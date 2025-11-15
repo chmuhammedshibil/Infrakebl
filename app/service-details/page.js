@@ -153,29 +153,23 @@ const page = () => {
                       <h3>Categories</h3>
                     </div>
                     <div className="service-category">
-                      <Link href="service-details" className="active">
+                      <Link href="" className="active">
                         Fiber Installation
-                        <i className="fal fa-long-arrow-right" />
                       </Link>
-                      <Link href="service-details">
+                      <Link href="">
                         Network Management
-                        <i className="fal fa-long-arrow-right" />
                       </Link>
-                      <Link href="service-details">
+                      <Link href="">
                         Splicing &amp; Repair
-                        <i className="fal fa-long-arrow-right" />
                       </Link>
-                      <Link href="service-details">
+                      <Link href="">
                         IT Consulting
-                        <i className="fal fa-long-arrow-right" />
                       </Link>
-                      <Link href="service-details">
+                      <Link href="">
                         Data Center Solutions
-                        <i className="fal fa-long-arrow-right" />
                       </Link>
-                      <Link href="service-details">
+                      <Link href="">
                         Network Security
-                        <i className="fal fa-long-arrow-right" />
                       </Link>
                     </div>
                   </div>

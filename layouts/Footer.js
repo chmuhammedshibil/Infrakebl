@@ -76,8 +76,8 @@ const Footer1 = () => {
                     amazing things.
                   </p>
                   <span>Interested in working with us?</span> <br />
-                  <a href="mailto:info@example.com" className="link">
-                    info@example.com
+                  <a href="mailto:info@infrakabel.de" className="link">
+                  info@infrakabel.de
                   </a>
                   <div className="social-icon d-flex align-items-center">
                     <a href="#">
@@ -142,7 +142,7 @@ const Footer1 = () => {
                     <Link href="contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing and plans</Link>
+                    <Link href="/">Pricing and plans</Link>
                   </li>
                   <li>
                     <Link href="contact">Cookies Policy</Link>
@@ -159,7 +159,8 @@ const Footer1 = () => {
                   <h5>Address:</h5>
                 </div>
                 <div className="footer-address-text">
-                  <p>570 8th Ave, New York,NY 10018 United States</p>
+                  <p>Musterstraße 123,
+                  12345 Musterstadt, Germany</p>
                   <h5>Hours:</h5>
                   <p>
                     9.30am – 6.30pm <br />
@@ -202,7 +203,7 @@ const Footer1 = () => {
         <div className="container">
           <div className="footer-wrapper d-flex align-items-center justify-content-between">
             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-              Copyright © 2024 <Link href="/">Modinatheme</Link>. All Rights
+              Copyright © 2024 <Link href="/">Infrakabel</Link>. All Rights
               Reserved.
             </p>
             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
@@ -252,7 +253,7 @@ const Footer2 = () => {
                   </p>
                   <span>Interested in working with us?</span> <br />
                   <a href="mailto:info@example.com" className="link">
-                    info@example.com
+                  info@infrakabel.de
                   </a>
                   <div className="social-icon d-flex align-items-center">
                     <a href="#">
@@ -317,7 +318,7 @@ const Footer2 = () => {
                     <Link href="contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing and plans</Link>
+                    <Link href="/">Pricing and plans</Link>
                   </li>
                   <li>
                     <Link href="contact">Cookies Policy</Link>
@@ -334,7 +335,8 @@ const Footer2 = () => {
                   <h5>Address:</h5>
                 </div>
                 <div className="footer-address-text">
-                  <p>570 8th Ave, New York,NY 10018 United States</p>
+                  <p>Musterstraße 123,
+                  12345 Musterstadt, Germany</p>
                   <h5>Hours:</h5>
                   <p>
                     9.30am – 6.30pm <br />
@@ -377,7 +379,7 @@ const Footer2 = () => {
         <div className="container">
           <div className="footer-wrapper d-flex align-items-center justify-content-between">
             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-              Copyright © 2024 <Link href="/">Modinatheme</Link>. All Rights
+              Copyright © 2024 <Link href="/">Infrakabel</Link>. All Rights
               Reserved.
             </p>
             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
@@ -513,10 +515,11 @@ const Footer3 = () => {
                   <h5>Locations:</h5>
                 </div>
                 <div className="footer-address-text">
-                  <p>55 Main Street, 2nd block Malborne, Australia</p>
+                  <p>Musterstraße 123,
+                  12345 Musterstadt, Germany</p>
                   <h5>Contact</h5>
                   <a href="mailto:info@example.com" className="link-mail">
-                    info@example.com
+                  info@infrakabel.de
                   </a>
                   <h5 className="pt-3">
                     <a href="tel:+88012345688">+880 (123) 456 88</a>
@@ -531,7 +534,7 @@ const Footer3 = () => {
         <div className="container">
           <div className="footer-wrapper d-flex align-items-center justify-content-between">
             <p className="wow fadeInUp color-2" data-wow-delay=".4s">
-              Copyright © 2024 <Link href="/">Modinatheme</Link>. All Rights
+              Copyright © 2024 <Link href="/">Infrakabel</Link>. All Rights
               Reserved.
             </p>
           </div>
@@ -603,7 +606,7 @@ const Footer4 = () => {
         </div>
         <div className="footer-bottom-4">
           <p className="wow fadeInUp text-center" data-wow-delay=".3s">
-            Copyright © 2024 <Link href="/">Modinatheme</Link>. All Rights
+            Copyright © 2024 <Link href="/">Infrakabel</Link>. All Rights
             Reserved.
           </p>
         </div>
