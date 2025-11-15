@@ -16,7 +16,7 @@ import { GiWireCoil } from "react-icons/gi";
 
 const page = () => {
   return (
-    <NetBandLayout header={1}>
+    <NetBandLayout>
       {/*<< Hero Section Start >>*/}
       <Home1 />
       {/*<< Feature Section Start >>*/}

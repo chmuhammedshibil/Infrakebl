@@ -345,18 +345,25 @@ export default function SignUpPage() {
         </Col>
 
         {/* Right Side - Background */}
-        <Col lg={6} className="d-none d-lg-block" style={styles.backgroundSide}>
-          <div style={{ ...styles.bubble, ...styles.bubble1 }}></div>
-          <div style={{ ...styles.bubble, ...styles.bubble2 }}></div>
-          <div style={{ ...styles.bubble, ...styles.bubble3 }}></div>
-          <div style={{ ...styles.bubble, ...styles.bubbleSmall1 }}></div>
-          <div style={{ ...styles.bubble, ...styles.bubbleSmall2 }}></div>
-          <div style={{ ...styles.bubble, ...styles.bubbleSmall3 }}></div>
-          <div style={{ ...styles.bubble, ...styles.bubbleSmall4 }}></div>
-          <div style={{ ...styles.bubble, ...styles.bubbleSmall5 }}></div>
-          <div style={styles.overlay1}></div>
-          <div style={styles.overlay2}></div>
-        </Col>
+       <Col 
+  lg={6} 
+  className="d-none d-lg-block"
+  style={{
+    padding: 0,
+    margin: 0,
+  }}
+>
+  <img 
+    src="/assets/img/login/p7.jpg"
+    style={{
+      width: "100%",
+      height: "100vh",
+      objectFit: "cover",
+      display: "block",
+    }}
+  />
+</Col>
+
       </Row>
     </Container>
   );

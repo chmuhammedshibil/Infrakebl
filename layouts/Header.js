@@ -169,7 +169,7 @@ const Header1 = ({ openSidebar, single, menus }) => {
 const Header2 = ({ openSidebar, single, menus }) => {
   return (
     <header>
-      <div className="header-tops-section fix">
+      <div className="header-tops-section fix bg-black">
         <div className="container-fluid">
           <div className="header-tops-wrapper">
             <ul className="contact-list">
@@ -221,6 +221,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <Menus single={single} menus={menus} />
                   </div>
                 </div>
+                
 
 
                 <div className="menu-cart">
@@ -260,9 +261,12 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <i className="far fa-shopping-cart" />
                   </Link>
                 </div>
+                
+                
 
 
                 <SearchBtn />
+                
                 <div className="header-button">
                   <Link href="contact" className="theme-btn">
                     <span>
@@ -418,6 +422,7 @@ const Header4 = ({ openSidebar, single, menus }) => {
             </div>
             <div className="header-right d-flex justify-content-end align-items-center">
               <SearchBtn />
+              
               <div className="header-button">
                 <Link href="contact" className="theme-btn">
                   <span>

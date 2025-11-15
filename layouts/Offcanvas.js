@@ -75,9 +75,9 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <Link href="contact" className="theme-btn text-center">
+                  <Link href="login" className="theme-btn text-center">
                     <span>
-                      Contact Us
+                      Login 
                       <i className="fas fa-chevron-right" />
                     </span>
                   </Link>
