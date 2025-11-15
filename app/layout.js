@@ -8,6 +8,7 @@ import "@css/swiper-bundle.min.css";
 import "@css/nice-select.css";
 import "@css/main.css";
 import "./globals.css";
+import "@css/LoginBoxed.css";
 import Preloader from "@/layouts/Preloader";
 
 export const metadata = {
