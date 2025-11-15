@@ -227,16 +227,16 @@ const Header2 = ({ openSidebar, single, menus }) => {
                   <div className="cart-box">
                     <ul>
                       <li>
-                        <img src="assets/img/shop/cart-2.jpg" alt="image" />
+                        <img src="assets/img/shop/product1.jpeg" alt="image" />
                         <div className="cart-product">
-                          <a href="#0">Wi-Fi Router</a>
+                          <a href="#0">Cable</a>
                           <span>168$</span>
                         </div>
                       </li>
                     </ul>
                     <ul>
                       <li className="border-none">
-                        <img src="assets/img/shop/cart-3.jpg" alt="image" />
+                        <img src="assets/img/shop/product2.jpeg" alt="image" />
                         <div className="cart-product">
                           <a href="#0">TV Box</a>
                           <span>198$</span>
