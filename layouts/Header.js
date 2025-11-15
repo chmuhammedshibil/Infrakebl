@@ -70,7 +70,7 @@ const Header1 = ({ openSidebar, single, menus }) => {
               <li>
                 <i className="far fa-envelope" />
                 <a href="mailto:info@infrakabel.de" className="link">
-                info@infrakabel.de
+                  info@infrakabel.de
                 </a>
               </li>
               <li>
@@ -116,7 +116,7 @@ const Header1 = ({ openSidebar, single, menus }) => {
                 <div className="header-left">
                   <div className="logo">
                     <Link href="/" className="header-logo">
-                      <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img"   style={{ width: "100px", height: "100px", objectFit: "contain" }} />
+                      <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img" style={{ width: "100px", height: "100px", objectFit: "contain" }} />
                     </Link>
                   </div>
                   <div className="mean__menu-wrapper">
@@ -137,8 +137,17 @@ const Header1 = ({ openSidebar, single, menus }) => {
                       </h6>
                     </div>
                   </div>
-                 
+
+
+
                   <SearchBtn />
+
+
+                  <Link href="login">
+                    <button className="btn text-success">Login</button>
+
+                  </Link>
+
                   <div className="header__hamburger d-xl-none my-auto">
                     <div
                       className="sidebar__toggle"
@@ -167,7 +176,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
               <li>
                 <i className="far fa-envelope" />
                 <a href="mailto:info@example.com" className="link">
-                info@infrakabel.de
+                  info@infrakabel.de
                 </a>
               </li>
               <li>
@@ -202,7 +211,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
               <div className="header-left">
                 <div className="logo">
                   <Link href="/" className="header-logo">
-                  <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img"   style={{ width: "100px", height: "100px", objectFit: "contain" }} />
+                    <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img" style={{ width: "100px", height: "100px", objectFit: "contain" }} />
                   </Link>
                 </div>
               </div>
@@ -212,7 +221,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <Menus single={single} menus={menus} />
                   </div>
                 </div>
-                
+
 
                 <div className="menu-cart">
                   <div className="cart-box">
@@ -252,7 +261,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
                   </Link>
                 </div>
 
-                
+
                 <SearchBtn />
                 <div className="header-button">
                   <Link href="contact" className="theme-btn">
@@ -299,7 +308,7 @@ const Header3 = ({ openSidebar, single, menus }) => {
                 <li>
                   <i className="fas fa-envelope" />
                   <a href="mailto:info@example.com" className="line-none">
-                    info@example.com
+                    info@Infrakabel.com
                   </a>
                 </li>
               </ul>
@@ -345,7 +354,7 @@ const Header3 = ({ openSidebar, single, menus }) => {
               <div className="header-main">
                 <div className="logo">
                   <Link href="/" className="header-logo">
-                  <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img"   style={{ width: "100px", height: "100px", objectFit: "contain" }} />
+                    <img src="/assets/img/logo/infraKabelLogo.png" alt="logo-img" style={{ width: "100px", height: "100px", objectFit: "contain" }} />
                   </Link>
                 </div>
                 <div className="header-left">
@@ -403,7 +412,7 @@ const Header4 = ({ openSidebar, single, menus }) => {
               </div>
             </div>
             <div className="mean__menu-wrapper">
-              <div className="main-menu" style={{display: "flex" , justifyContent:"center", alignItems:"center"}}>
+              <div className="main-menu" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                 <Menus single={single} menus={menus} />
               </div>
             </div>
